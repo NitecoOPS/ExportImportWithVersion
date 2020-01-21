@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\habui84\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\habui84\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
+    <PkgEPiServer_Framework Condition=" '$(PkgEPiServer_Framework)' == '' ">C:\Users\habui84\.nuget\packages\episerver.framework\11.14.1</PkgEPiServer_Framework>
+    <PkgEPiServer_ServiceLocation_StructureMap Condition=" '$(PkgEPiServer_ServiceLocation_StructureMap)' == '' ">C:\Users\habui84\.nuget\packages\episerver.servicelocation.structuremap\2.0.3</PkgEPiServer_ServiceLocation_StructureMap>
+    <PkgEPiServer_Logging_Log4Net Condition=" '$(PkgEPiServer_Logging_Log4Net)' == '' ">C:\Users\habui84\.nuget\packages\episerver.logging.log4net\2.2.2</PkgEPiServer_Logging_Log4Net>
+    <PkgEPiServer_Framework_AspNet Condition=" '$(PkgEPiServer_Framework_AspNet)' == '' ">C:\Users\habui84\.nuget\packages\episerver.framework.aspnet\11.14.1</PkgEPiServer_Framework_AspNet>
+    <PkgEPiServer_CMS_Core Condition=" '$(PkgEPiServer_CMS_Core)' == '' ">C:\Users\habui84\.nuget\packages\episerver.cms.core\11.14.1</PkgEPiServer_CMS_Core>
+    <PkgEPiServer_CMS_AspNet Condition=" '$(PkgEPiServer_CMS_AspNet)' == '' ">C:\Users\habui84\.nuget\packages\episerver.cms.aspnet\11.14.1</PkgEPiServer_CMS_AspNet>
+    <PkgEPiServer_CMS_UI_Core Condition=" '$(PkgEPiServer_CMS_UI_Core)' == '' ">C:\Users\habui84\.nuget\packages\episerver.cms.ui.core\11.23.3</PkgEPiServer_CMS_UI_Core>
+  </PropertyGroup>
+</Project>
